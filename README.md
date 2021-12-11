@@ -36,7 +36,7 @@ I implemented a simple KNN [here](./knn.py) and the implementation for our use c
 
 ![Classification accuracy with a KNN (function of k)](./results/KNN.png)
 
-As we can see here, the results are pretty bad. Only 55% percent maximum accuracy with 1 neighbour (k=1). Actually, it is higher than expected (~10% was expected because there are a total of 13 classes). It may be due to our data augmentation technique were two close image can be present.
+As we can see here, the results are pretty bad. Only 55% percent maximum accuracy with 1 neighbour (k=1). Actually, it is higher than expected (~10% was expected because there are a total of 13 classes). It may be due to our data augmentation technique where two close image can be present.
 
 ## Classification with VGG16 and a neural network
 
